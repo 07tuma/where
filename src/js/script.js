@@ -34,7 +34,7 @@ function returnOrigClose () {
 	console.log("11111111");
 		  }
   
-let password = prompt("Как Вас Зовут?");
+let password = window.prompt("Как Вас Зовут?");
 
 
 	if (password === "Ричард") {
