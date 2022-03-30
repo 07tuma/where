@@ -37,7 +37,7 @@ function returnOrigClose () {
 let password = prompt("Как Вас Зовут?");
 
 
-		if (password === "Ричард") {
+		if (password === "Ричард" || password === "ричард" || password === "Ричард " || password === "ричард ") {
 		main.style.opacity = "1";
 	} else if (password !== null) {
 		alert(`Здравствуйте ${password}!`);
