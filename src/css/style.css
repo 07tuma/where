@@ -77,13 +77,12 @@ margin: -170px auto;
   cursor: pointer;
   height: 50px;
   width: 125px;
-  border-color: rgb(233, 228, 228);
-  border-style: solid;
+  border-style: none;
   border-radius: 7px;
   z-index: 7;
   font-family: cursive;
   box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
-  background-color: #6fffef4d;
+background-color: #315efb;
   transition: 0.3s;
 }
 
