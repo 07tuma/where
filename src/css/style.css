@@ -77,7 +77,7 @@ margin: -170px auto;
   text-transform: uppercase;
   cursor: pointer;
   height: 50px;
-  width: 125px;
+  width: 120px;
   border-style: none;
   border-radius: 7px;
   z-index: 7;
@@ -88,7 +88,7 @@ background-color: #315efb;
 }
 
 button:hover {
-  width: 130px;
+  width: 125px;
   height: 55px;
   color: black;
  }
