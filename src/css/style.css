@@ -94,6 +94,11 @@ button:hover {
   color: black;
  }
 
+.button:active {
+transform: scale(0.8);
+transition: 100ms;
+}
+
 .button-knock:hover {
   background-color: #5bff004d;
 }
