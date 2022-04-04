@@ -72,6 +72,7 @@ margin: -170px auto;
 }
 
 .button {
+  color: white;
   font-size: 12px;
   text-transform: uppercase;
   cursor: pointer;
@@ -89,6 +90,7 @@ background-color: #315efb;
 button:hover {
   width: 130px;
   height: 55px;
+  color: black;
  }
 
 .button-knock:hover {
