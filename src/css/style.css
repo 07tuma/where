@@ -2,6 +2,7 @@ p {
   font-size: 30px;
   color: black;
   text-align: center;
+  font-family: cursive;
 }
 
 .main{
@@ -22,6 +23,7 @@ p {
   height: 55%;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5px;
 }
 
 .door-open {
@@ -32,6 +34,7 @@ p {
   height: 0%;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5px;
 }
 
 .door-close-click {
@@ -42,6 +45,7 @@ p {
   height: 110%;
   background-repeat: no-repeat;
   background-size: cover;
+  border-radius: 5px;
 }
 
 .travolta {
@@ -55,15 +59,16 @@ p {
   background-image: url("../img/yH.gif");
   background-repeat: no-repeat;
   background-size: contain;
+  border-radius: 5px;
 }
 
 .buttons {
 margin: auto;
-width: 300px;
+width: 350px;
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
+align-items: center;
 margin: -170px auto;
-
 }
 
 .button {
@@ -71,8 +76,19 @@ margin: -170px auto;
   text-transform: uppercase;
   cursor: pointer;
   height: 50px;
-  width: 120px;
-  border-color: white;
+  width: 125px;
+  border-color: rgb(233, 228, 228);
+  border-style: solid;
+  border-radius: 7px;
+  z-index: 7;
+  font-family: cursive;
+}
+
+.button:hover {
+  width: 130px;
+  height: 55px;
+  transition: 500ms;
+  background-color: aqua;
 }
 
 .button-knock {
