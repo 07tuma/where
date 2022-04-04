@@ -82,19 +82,14 @@ margin: -170px auto;
   border-radius: 7px;
   z-index: 7;
   font-family: cursive;
+  box-shadow: 0px 5px 15px rgb(0 0 0 / 30%);
+  background-color: #6fffef4d;
 }
 
-.button:hover {
-  width: 130px;
-  height: 55px;
-  transition: 500ms;
-  background-color: aqua;
-}
-
-.button-knock {
+.button-knock:hover {
   background-color: #5bff004d;
 }
 
-.button-open {
+.button-open:hover {
   background-color: #ff00004d;
 }
